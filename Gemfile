@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.9.0"
+gem "jekyll", "~> 3.10.0"
 gem "jekyll-toc"
 gem "csv"
-gem "webrick"
+gem "webrick", ">= 1.8.2"
 gem "base64"
 gem "bigdecimal"
 gem "kramdown-parser-gfm"
